@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{45BC80C7-0D57-4944-B0D7-0730EA1C7628}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{17D99CFD-E9D5-41C6-8EBB-1566EECA418C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{45BC80C7-0D57-4944-B0D7-0730EA1C7628} = {45BC80C7-0D57-4944-B0D7-0730EA1C7628}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
